@@ -75,9 +75,30 @@ img {
     .upgrade {
         background-color: var(--sp-color-maibg);
         color: var(--sp-color-Hbtn);
+        padding: 1rem;
+        text-align: right;
     }
 
+    nav {
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+
+        a {
+            color: var(--sp-color-Maintxt);
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline var(--sp-color-underline);
+            }
+        }
+    }
 }
+
+
+
 
 
 /*bottom player & navigation*/
