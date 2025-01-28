@@ -24,8 +24,6 @@
     min-width: 500px;
     height: calc(100vh - 90px);
     overflow-y: auto;
-    width: calc(100vw - 80px);
-    overflow-x: auto;
 
 }
 
