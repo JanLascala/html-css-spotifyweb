@@ -80,16 +80,34 @@ img {
 }
 
 
-/*bottom player*/
+/*bottom player & navigation*/
 
 .bottom {
     position: sticky;
     overflow: hidden;
     bottom: 0;
     width: 100%;
+    padding: 1rem;
 
     background-color: var(--sp-color-playerBG);
+    color: var(--sp-color-playerlight);
 
-    min-height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav-center {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+}
+
+.nav-right {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
 
 }

@@ -8,9 +8,9 @@ add font done
 
 root of all colors done
 
-detail layout of bottom
+detail layout of bottom done
 
-manage items disposition order in bottom
+manage items disposition order in bottom done  (WITH ISSUE ON LEFT NAV OPEN  TICKET)
 
 manage items disposition order in content 
 
