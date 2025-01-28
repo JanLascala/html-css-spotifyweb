@@ -5,6 +5,10 @@
     border-style: dashed;
 }
 
+img {
+    width: 100%;
+}
+
 /*layout temp*/
 .top {
     display: flex;
@@ -13,9 +17,12 @@
 .sidebar {
     position: sticky;
     background-color: bisque;
+    padding: 1rem;
     min-width: 80px;
     min-height: 1000PX;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .content {
