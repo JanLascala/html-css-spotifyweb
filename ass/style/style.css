@@ -16,10 +16,16 @@ img {
 
 .sidebar {
     position: sticky;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    height: calc(100vh - 90px);
+
+
     background-color: bisque;
     padding: 1rem;
-    min-width: 80px;
-    min-height: 1000PX;
+
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -29,7 +35,6 @@ img {
     background-color: aquamarine;
     min-height: 1000px;
     min-width: 500px;
-    height: calc(100vh - 90px);
     overflow-y: auto;
 
 }
