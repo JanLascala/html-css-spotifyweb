@@ -88,7 +88,7 @@ img {
     bottom: 0;
     width: 100%;
 
-    background-color: rgb(189, 149, 96);
+    background-color: var(--sp-color-playerBG);
 
     min-height: 90px;
 
