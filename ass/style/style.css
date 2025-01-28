@@ -95,6 +95,16 @@ img {
             }
         }
     }
+
+    .box {
+        padding-top: 2rem;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
 }
 
 

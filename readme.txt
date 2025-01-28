@@ -12,7 +12,7 @@ detail layout of bottom done
 
 manage items disposition order in bottom done  (WITH ISSUE ON LEFT NAV OPEN  TICKET)
 
-manage items disposition order in content 
+manage items disposition order in content done
 
 add hidden items to layout and hide them
 
