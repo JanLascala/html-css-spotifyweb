@@ -11,9 +11,11 @@
 }
 
 .sidebar {
+    position: sticky;
     background-color: bisque;
     min-width: 80px;
     min-height: 1000PX;
+
 }
 
 .content {
