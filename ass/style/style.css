@@ -20,11 +20,17 @@
     background-color: aquamarine;
     min-height: 1000px;
     min-width: 500px;
+    height: calc(100vh - 90px);
+    overflow-y: auto;
+    width: calc(100vw - 80px);
+    overflow-x: auto;
+
 }
 
 .bottom {
+
     background-color: rgb(189, 149, 96);
-    max-width: 580px;
+    min-width: 580px;
     min-height: 90px;
 
 }
