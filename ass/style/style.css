@@ -4,3 +4,27 @@
     box-sizing: border-box;
     border-style: dashed;
 }
+
+/*layout temp*/
+.top {
+    display: flex;
+}
+
+.sidebar {
+    background-color: bisque;
+    min-width: 80px;
+    min-height: 1000PX;
+}
+
+.content {
+    background-color: aquamarine;
+    min-height: 1000px;
+    min-width: 500px;
+}
+
+.bottom {
+    background-color: rgb(189, 149, 96);
+    max-width: 580px;
+    min-height: 90px;
+
+}
