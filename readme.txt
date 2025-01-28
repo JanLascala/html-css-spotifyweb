@@ -14,9 +14,13 @@ manage items disposition order in bottom done  (WITH ISSUE ON LEFT NAV OPEN  TIC
 
 manage items disposition order in content done
 
-add hidden items to layout and hide them
+add hidden items to layout and hide them NOT done (Open Ticket column sidebar)
 
 		tomorrow & day after(?)
+
+
+add hidden items to layout and hide them NOT done (Open Ticket column sidebar)
+
 
 responsiveness
 
