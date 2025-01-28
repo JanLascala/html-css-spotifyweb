@@ -4,9 +4,9 @@ layout done
 
 functioning side and bottom bar bone (maybe)
 
-add font 
+add font done 
 
-root of all colors
+root of all colors done
 
 detail layout of bottom
 
