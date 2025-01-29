@@ -305,6 +305,11 @@ img {
         width: 30%;
         background-color: var(--sp-color-playerdim);
 
+        &:hover {
+            height: 3px;
+            background-color: var(--sp-color-underline);
+        }
+
     }
 }
 
