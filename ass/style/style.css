@@ -39,6 +39,7 @@ img {
 /*layout temp*/
 .top {
     display: flex;
+    width: 100%;
 }
 
 /*sidebar*/
@@ -48,7 +49,7 @@ img {
     left: 0;
     top: 0;
     height: calc(100vh - 90px);
-    min-width: 80px;
+    max-width: 80px;
 
 
     background-color: var(--sp-color-sidebg);
@@ -61,8 +62,10 @@ img {
     justify-content: space-between;
 
     span {
-        display: inline-block;
+        justify-content: center;
     }
+
+
 }
 
 /* main content with top and bottom*/
@@ -70,19 +73,29 @@ img {
 .content {
     background-color: var(--sp-color-maibg);
     color: var(--sp-color-Maintxt);
-    min-height: 1000px;
-    min-width: 500px;
     overflow-y: auto;
+    width: 100%;
 
-    h2 {
+    h2,
+    h3 {
         color: var(--sp-color-accent);
+        padding: 1rem;
+    }
+
+    h4 {
+        color: var(--sp-color-Maintxt);
+        padding: 1rem;
     }
 
     .upgrade {
         background-color: var(--sp-color-maibg);
         color: var(--sp-color-Hbtn);
-        padding: 1rem;
+        padding: 1rem 2rem;
         text-align: right;
+
+        input {
+            padding: 0.5rem;
+        }
     }
 
     nav {
@@ -104,13 +117,29 @@ img {
 
     .box {
         padding-top: 2rem;
+
     }
+
+
 
     .row {
         display: flex;
         flex-wrap: wrap;
         gap: 2rem;
     }
+
+    .card {
+        padding: 1rem;
+        text-align: center;
+        max-height: 3500px;
+        max-width: 300px;
+
+
+        img {
+            width: 300px;
+        }
+    }
+
 }
 
 

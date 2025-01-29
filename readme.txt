@@ -19,12 +19,13 @@ add hidden items to layout and hide them NOT done (Open Ticket column sidebar)
 		tomorrow & day after(?)
 
 
-add hidden items to layout and hide them NOT done (Open Ticket column sidebar)
+add hidden items to layout and hide them NOT done (Open Ticket column sidebar not align try another column)
 
+add details and content
 
 responsiveness
 
-add details and content
+
 
 add effects highlights
 
