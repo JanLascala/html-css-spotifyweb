@@ -263,6 +263,25 @@ img {
     justify-content: space-between;
 }
 
+.nav-left {
+    display: flex;
+
+    img {
+        width: 30px;
+    }
+
+    div {
+        padding-left: 1rem;
+    }
+
+    .icocontainer {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+}
+
 
 .nav-center {
     font-size: 30px;
