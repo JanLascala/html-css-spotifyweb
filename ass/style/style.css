@@ -179,6 +179,8 @@ img {
         .middle {
             font-size: 90px;
             position: absolute;
+            transition: .5s ease;
+            opacity: 0;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
@@ -186,6 +188,23 @@ img {
 
 
         }
+
+        &:hover {
+            .album {
+                opacity: 0.3;
+            }
+
+            .middle {
+                opacity: 1;
+            }
+        }
+    }
+
+    .album {
+        opacity: 1;
+        display: block;
+        transition: .5s ease;
+        backface-visibility: hidden;
     }
 
 
