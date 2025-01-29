@@ -311,17 +311,20 @@ img {
 
 @media screen and (min-width: 600px) {
     .sidebar {
-        width: 100px;
+        width: 300px;
+
+        ul {
+            .brand {
+                display: block;
+            }
+        }
 
         .playlist {
             display: block;
         }
 
         span {
-            display: block;
+            display: inline;
         }
     }
-
-
-
 }
