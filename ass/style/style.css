@@ -288,11 +288,33 @@ img {
 
 }
 
+.player {
+    text-align: center;
+
+    .bar {
+        margin-top: 1rem;
+        height: 2px;
+        width: 100%;
+        background-color: var(--sp-color-playerdark);
+
+    }
+
+    .bar2 {
+        margin-top: 1rem;
+        height: 2px;
+        width: 30%;
+        background-color: var(--sp-color-playerdim);
+
+    }
+}
+
 .nav-center {
     font-size: 30px;
     display: flex;
     justify-content: space-around;
     gap: 1.5rem;
+
+
 
     .fa-play {
         &:hover {
