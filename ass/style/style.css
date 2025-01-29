@@ -66,12 +66,17 @@ img {
             text-decoration: none;
             color: var(--sp-color-sidetxt);
 
+            span {
+                display: none;
+            }
+
             &:hover {
                 text-decoration: underline var(--sp-color-underline);
                 color: var(--sp-color-Hbtn);
                 font-weight: 600;
 
             }
+
 
 
 
@@ -100,10 +105,15 @@ img {
 
     .playlist {
         padding-top: 1rem;
+        display: none;
 
         lh {
             font-weight: 700;
             color: #ffffff;
+        }
+
+        .plus {
+            font-size: 40px;
         }
 
         li {
