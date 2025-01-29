@@ -261,10 +261,18 @@ img {
 
     display: flex;
     justify-content: space-between;
+
+    i {
+        &:hover {
+            font-weight: 600;
+            color: var(--sp-color-accent);
+        }
+    }
 }
 
 .nav-left {
     display: flex;
+
 
     img {
         width: 30px;
@@ -280,14 +288,21 @@ img {
         gap: 5px;
     }
 
-}
 
+
+}
 
 .nav-center {
     font-size: 30px;
     display: flex;
     justify-content: space-around;
     gap: 1.5rem;
+
+    .fa-play {
+        &:hover {
+            font-size: 40px;
+        }
+    }
 }
 
 .nav-right {
