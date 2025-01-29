@@ -23,13 +23,13 @@ add hidden items to layout and hide them NOT done (Open Ticket column sidebar no
 
 add details and content done
 
-responsiveness
+add effects highlights done
 
+add effect hover on items done 
 
+responsiveness 
 
-add effects highlights
-
-add efeffect hover on items
+side and bottom bar 
 
 
  
