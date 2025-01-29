@@ -45,12 +45,8 @@ img {
 
 /*sidebar*/
 .sidebar {
-    position: sticky;
-    overflow: hidden;
-    left: 0;
-    top: 0;
     height: 100%;
-    max-width: 80px;
+    min-width: 80px;
 
 
     background-color: var(--sp-color-sidebg);
@@ -62,9 +58,31 @@ img {
     flex-direction: column;
     justify-content: space-between;
 
-    span {
-        justify-content: center;
+    ul {
+        list-style: none;
+
+        a {
+
+            text-decoration: none;
+            color: var(--sp-color-sidetxt);
+
+            &:hover {
+                text-decoration: underline var(--sp-color-underline);
+
+            }
+
+            span {
+                display: none;
+            }
+        }
+
     }
+
+    .sideico {
+        height: 40px;
+        width: 40px;
+    }
+
 
 
 }
