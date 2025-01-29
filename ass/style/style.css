@@ -73,10 +73,22 @@ img {
 
             }
 
-            span {
-                display: none;
 
-            }
+
+
+
+        }
+
+        .logo {
+            display: flex;
+            padding-bottom: 1rem;
+        }
+
+        .brand {
+            font-size: 40px;
+            color: #ffffff;
+            font-weight: 700;
+            display: none;
         }
 
     }
@@ -86,6 +98,18 @@ img {
         width: 40px;
     }
 
+    .playlist {
+        padding-top: 1rem;
+
+        lh {
+            font-weight: 700;
+            color: #ffffff;
+        }
+
+        li {
+            margin-top: 1rem;
+        }
+    }
 
 
 }
