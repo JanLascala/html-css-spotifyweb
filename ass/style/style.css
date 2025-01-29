@@ -68,11 +68,14 @@ img {
 
             &:hover {
                 text-decoration: underline var(--sp-color-underline);
+                color: var(--sp-color-Hbtn);
+                font-weight: 600;
 
             }
 
             span {
                 display: none;
+
             }
         }
 
@@ -113,7 +116,18 @@ img {
         text-align: right;
 
         input {
-            padding: 0.5rem;
+            color: var(--sp-color-Hbtn);
+            padding: 0.5rem 1.5rem;
+            background-color: transparent;
+            border: 2px solid var(--sp-color-Hbtn);
+            border-radius: 1rem;
+
+            &:hover {
+                padding: 1rem 2rem;
+                border: 2px solid;
+                border-radius: 2rem;
+                font-weight: 800;
+            }
         }
     }
 
@@ -130,6 +144,8 @@ img {
 
             &:hover {
                 text-decoration: underline var(--sp-color-underline);
+                color: var(--sp-color-accent);
+                font-weight: 600;
             }
         }
     }
