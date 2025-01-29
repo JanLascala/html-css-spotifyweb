@@ -29,7 +29,7 @@ add effect hover on items done
 
 responsiveness 
 
-side and bottom bar 
+side and bottom bar semi done
 
 
  
