@@ -40,6 +40,7 @@ img {
 .top {
     display: flex;
     width: 100%;
+    height: calc(100vh - 80px);
 }
 
 /*sidebar*/
@@ -48,7 +49,7 @@ img {
     overflow: hidden;
     left: 0;
     top: 0;
-    height: calc(100vh - 90px);
+    height: 100%;
     max-width: 80px;
 
 
@@ -135,9 +136,7 @@ img {
         max-width: 300px;
 
 
-        img {
-            width: 300px;
-        }
+
     }
 
 }
@@ -149,9 +148,8 @@ img {
 /*bottom player & navigation*/
 
 .bottom {
-    position: sticky;
+    height: 80px;
     overflow: hidden;
-    bottom: 0;
     width: 100%;
     padding: 1rem;
 
