@@ -58,6 +58,10 @@ img {
     flex-direction: column;
     justify-content: space-between;
 
+    span {
+        display: none;
+    }
+
     ul {
         list-style: none;
 
@@ -66,9 +70,7 @@ img {
             text-decoration: none;
             color: var(--sp-color-sidetxt);
 
-            span {
-                display: none;
-            }
+
 
             &:hover {
                 text-decoration: underline var(--sp-color-underline);
@@ -76,12 +78,6 @@ img {
                 font-weight: 600;
 
             }
-
-
-
-
-
-
         }
 
         .logo {
@@ -310,5 +306,22 @@ img {
     display: flex;
     justify-content: space-around;
     gap: 1.5rem;
+
+}
+
+@media screen and (min-width: 600px) {
+    .sidebar {
+        width: 100px;
+
+        .playlist {
+            display: block;
+        }
+
+        span {
+            display: block;
+        }
+    }
+
+
 
 }
