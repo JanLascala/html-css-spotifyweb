@@ -377,6 +377,10 @@ img {
     .sidebar {
         width: 300px;
 
+        .small {
+            display: none;
+        }
+
         ul {
             .brand {
                 display: block;
