@@ -310,6 +310,7 @@ img {
         height: 2px;
         width: 100%;
         background-color: var(--sp-color-playerdark);
+        border-radius: 1rem;
 
     }
 
@@ -318,6 +319,7 @@ img {
         height: 2px;
         width: 30%;
         background-color: var(--sp-color-playerdim);
+        border-radius: 1rem;
 
         &:hover {
             height: 3px;
@@ -356,6 +358,7 @@ img {
         height: 2px;
         width: 60%;
         background-color: var(--sp-color-playerdim);
+        border-radius: 1rem;
 
         &:hover {
             height: 3px;
@@ -402,4 +405,6 @@ img {
             flex-direction: row;
         }
     }
+
+
 }
