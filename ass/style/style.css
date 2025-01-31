@@ -111,6 +111,13 @@ img {
 
     }
 
+    .icons-bottom {
+        .name {
+            background-color: var(--sp-color-sidetxt);
+            border-radius: 50%;
+        }
+    }
+
 
 
 
